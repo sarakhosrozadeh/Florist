@@ -37,8 +37,11 @@ body{
     color: #562646;
 }
 .login1:hover{
+    padding: 10px;
     background-color: #ffe4e4;
-    border-radius: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color:#562646;
 
 }
 .logoimg{
