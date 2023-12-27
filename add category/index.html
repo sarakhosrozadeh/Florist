@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Add Category Form</title>
+</head>
+<body>
+    <div class="add-category-container">
+        <!--this page is written by sara-->
+        <h2>Add Category</h2>
+        <form  method="post" enctype="multipart/form-data">
+            <label for="categoryName">Category Name:</label>
+            <input type="text" id="categoryName" name="categoryName" required>
+
+            <label for="categoryImage">Category Image:</label>
+            <input type="file" id="categoryImage" name="categoryImage" accept="image/*" required>
+
+            <label for="categoryInfo">Category Information:</label>
+            <textarea id="categoryInfo" name="categoryInfo" rows="4" required></textarea>
+
+            <button type="submit">Add Category</button>
+        </form>
+    </div>
+</body>
+</html>
