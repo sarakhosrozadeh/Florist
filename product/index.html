@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <link rel="stylesheet" href="css/style.css">
+   <script src="js/script.js" defer></script>
+
+</head>
+<body>
+   <div class="add-flower-container">
+      <!---this page is written by sara-->
+      <div>
+         <h1 class="title"> gole apartmani </h1>
+         <button class="update-flower">Add Flower</button>
+      </div>
+      </div>
+  
+<div class="container">
+
+   
+ 
+
+   <div class="products-container">
+
+      <div class="product" data-name="p-1">
+         <img src="images/1.jpg" alt="">
+         <h3>flower1</h3>
+         <div>
+           <button class="update-flower">update flower</button>
+            <button class="delete-flower">Delete flower</button>
+            </div>
+      </div>
+
+      <div class="product" data-name="p-2">
+         <img src="images/2.jpg" alt="">
+         <h3>flower2</h3>
+         <div>
+            <button class="update-flower">update flower</button>
+             <button class="delete-flower">Delete flower</button>
+             </div>
+      </div>
+
+      <div class="product" data-name="p-3">
+         <img src="images/3.jpg" alt="">
+         <h3>flower3</h3>
+         <div>
+            <button class="update-flower">update flower</button>
+             <button class="delete-flower">Delete flower</button>
+             </div>
+      </div>
+
+      <div class="product" data-name="p-4">
+         <img src="images/4.jpg" alt="">
+         <h3>flower4</h3>
+         <div>
+            <button class="update-flower">update flower</button>
+             <button class="delete-flower">Delete flower</button>
+             </div>
+      </div>
+
+      <div class="product" data-name="p-5">
+         <img src="images/5.jpg" alt="">
+         <h3>flower5</h3>
+         <div>
+            <button class="update-flower">update flower</button>
+             <button class="delete-flower">Delete flower</button>
+             </div>
+      </div>
+
+      <div class="product" data-name="p-6">
+         <img src="images/6.jpg" alt="">
+         <h3>flower6</h3>
+         <div>
+            <button class="update-flower">update flower</button>
+             <button class="delete-flower">Delete flower</button>
+             </div>
+      </div>
+
+   </div>
+
+</div>
+
+<div class="products-preview">
+
+   <div class="preview" data-target="p-1">
+      <i class="fas fa-times"></i>
+      <img src="images/1.jpg" alt="">
+      <br>
+      <h2>Update Product</h2>
+     
+      <form class="update-form" action="" method="post" enctype="multipart/form-data">
+         <label for="productName">Product Name:</label>
+         <input type="text" id="productName" name="productName" placeholder="Enter new product name">
+
+         <label for="productImage">Product Image:</label>
+         <input type="file" id="productImage" name="productImage" accept="image/*">
+         
+         <label for="productNumber">Product Number:</label>
+         <input type="text" id="productNumber" name="productNumber" placeholder="Enter new product number">
+
+         <label for="productPrice">Product Price:</label>
+         <input type="number" id="productPrice" name="productPrice" step="0.01" placeholder="Enter new product price">
+
+         <label for="productInfo">Product Information:</label>
+         <textarea id="productInfo" name="productInfo" rows="4" placeholder="Enter new product information"></textarea>
+
+           <div class="buttons">
+             <a href="#" class="cart" >Update Product</a>
+           </div>
+     </form>
+      
+   </div>
+
+
+   <div class="preview" data-target="p-2">
+      <i class="fas fa-times"></i>
+      <img src="images/2.jpg" alt="">
+      <h3>flower</h3>
+     
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">$2.00</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-3">
+      <i class="fas fa-times"></i>
+      <img src="images/3.jpg" alt="">
+      <h3>flower</h3>
+     
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">$2.00</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-4">
+      <i class="fas fa-times"></i>
+      <img src="images/4.jpg" alt="">
+      <h3>flower</h3>
+      
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">$2.00</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-5">
+      <i class="fas fa-times"></i>
+      <img src="images/5.jpg" alt="">
+      <h3>flower</h3>
+      
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">$2.00</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+
+   <div class="preview" data-target="p-6">
+      <i class="fas fa-times"></i>
+      <img src="images/6.jpg" alt="">
+      <h3>flower</h3>
+      
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+      <div class="price">$2.00</div>
+      <div class="buttons">
+         <a href="#" class="buy">buy now</a>
+         <a href="#" class="cart">add to cart</a>
+      </div>
+   </div>
+
+</div>
+
+</body>
+</html>
