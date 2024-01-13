@@ -1,0 +1,34 @@
+class ApartmentOrder(Base):
+    __tablename__="apartmentorders"
+    user_id= Column(Integer,ForeignKey("users.id",ondelete="CASCADE"),primary_key=True)
+    user_name= Column(String, ForeignKey("users.username"))
+    user_email= Column(String, ForeignKey("users.email"))
+    user_address= Column(String, ForeignKey("users.address"))
+    user_phone= Column(String, ForeignKey("users.phone_number"))
+    apartment_id=Column(Integer,ForeignKey("apartment.id",ondelete="CASCADE"),primary_key=True,nullable=False)
+    count=Column(Integer,nullable=False)
+
+
+    
+
+
+class BunchOrder(Base):
+    __tablename__="bunchorders"
+    user_id= Column(Integer,ForeignKey("users.id",ondelete="CASCADE"),primary_key=True)
+    user_name= Column(String, ForeignKey("users.username"))
+    user_email= Column(String, ForeignKey("users.email"))
+    user_address= Column(String, ForeignKey("users.address"))
+    user_phone= Column(String, ForeignKey("users.phone_number"))
+    bunch_id=Column(Integer,ForeignKey("bunch.id",ondelete="CASCADE"),primary_key=True,nullable=False)
+    count=Column(Integer,nullable=False)
+
+
+class AccessoryOrder(Base):
+    __tablename__="accessoryorders"
+    user_id= Column(Integer,ForeignKey("users.id",ondelete="CASCADE"),primary_key=True)
+    user_name= Column(String, ForeignKey("users.username"))
+    user_email= Column(String, ForeignKey("users.email"))
+    user_address= Column(String, ForeignKey("users.address"))
+    user_phone= Column(String, ForeignKey("users.phone_number"))
+    accessory_id=Column(Integer,ForeignKey("accessory.id",ondelete="CASCADE"),primary_key=True,nullable=False)
+    count=Column(Integer,nullable=False)
