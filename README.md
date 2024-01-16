@@ -17,7 +17,7 @@ Additionally, you'll need to have npm and pip installed for package management.
 ### Clone the Repository:
 
 ```bash
-git clone https://github.com/your-username/flower-shop-project.git
+git clone https://github.com/sarakhosrozadeh/florist.git
 
 ```
 
