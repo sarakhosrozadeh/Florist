@@ -44,7 +44,6 @@ alembic upgrade head
 Frontend Setup:
 
 ```bash
-
 cd frontend
 npm install
 ```
