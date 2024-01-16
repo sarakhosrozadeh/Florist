@@ -32,3 +32,13 @@ Install dependencies:
 
 pip install -r backend/requirements.txt
 ```
+Set up PostgreSQL and configure backend/.env with database details.
+
+Run migrations:
+
+bash
+
+cd backend
+alembic upgrade head
+
+Populate the database if needed.
