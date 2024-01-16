@@ -21,7 +21,14 @@ git clone https://github.com/sarakhosrozadeh/florist.git
 
 ```
 
-Feel free to contribute! Please read CONTRIBUTING.md for details on our code of conduct and the process for submitting pull requests.
-License:
+Activate the virtual environment:
 
-This project is licensed under the MIT License.
+    On Windows: venv\Scripts\activate
+    On macOS/Linux: source venv/bin/activate
+
+Install dependencies:
+
+```bash
+
+pip install -r backend/requirements.txt
+```
