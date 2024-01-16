@@ -1,5 +1,4 @@
-# Florist
-Flower Shop Website Project
+# Flower Shop Website Project
 
 This repository contains a web application for a flower shop, implemented with React for the frontend, FastAPI for the backend, and PostgreSQL for the database.
 Prerequisites
