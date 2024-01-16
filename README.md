@@ -36,9 +36,46 @@ Set up PostgreSQL and configure backend/.env with database details.
 
 Run migrations:
 
-bash
+```bash
 
 cd backend
 alembic upgrade head
+```
+Frontend Setup:
 
+```bash
+
+cd frontend
+npm install
+```
+Running the App:
+
+    Start the backend (from the root directory):
+
+    ```bash
+
+uvicorn backend.main:app --reload
+```
+Start the frontend (from the frontend directory):
+
+```bash
+
+    npm start
+```
+Testing:
+
+    Backend tests:
+
+    ```bash
+
+cd backend
+pytest
+```
+Frontend tests:
+
+```bash
+
+cd frontend
+npm test
+```
 Populate the database if needed.
