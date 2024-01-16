@@ -49,31 +49,27 @@ npm install
 ```
 Running the App:
 
-    Start the backend (from the root directory):
+Start the backend (from the root directory):
 
     ```bash
-
 uvicorn backend.main:app --reload
 ```
 Start the frontend (from the frontend directory):
 
 ```bash
-
-    npm start
+npm start
 ```
 Testing:
 
-    Backend tests:
+Backend tests:
 
-    ```bash
-
+ ```bash
 cd backend
 pytest
 ```
 Frontend tests:
 
 ```bash
-
 cd frontend
 npm test
 ```
