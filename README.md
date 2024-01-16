@@ -51,7 +51,7 @@ Running the App:
 
 Start the backend (from the root directory):
 
-    ```bash
+```bash
 uvicorn backend.main:app --reload
 ```
 Start the frontend (from the frontend directory):
